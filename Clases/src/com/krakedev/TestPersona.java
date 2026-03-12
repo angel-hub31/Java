@@ -9,25 +9,25 @@ public class TestPersona {
 	
 		//2:instanciar un objeto Persona, referenciada
 		//3:accedo a los atributos
-		System.out.println("Nombre:" + p.nombre);
-		System.out.println("Edad:" + p.edad);
-		System.out.println("Estatura:" + p.estatura);
+		System.out.println("Nombre:" + p.getNombre());
+		System.out.println("Edad:" + p.getEdad());
+		System.out.println("Estatura:" + p.getEstatura());
 		//4:modificar los atributos
-		p.nombre="Mario";
-		p.edad=45;
-		p.estatura=1.56;
+		p.setNombre("Mario");
+		p.setEdad(45);
+		p.setEstatura(1.56);
 		
 		System.out.println("--------------------");
 		//5: accedo a los atributos
-		System.out.println("Nombre:" + p.nombre);
-		System.out.println("Edad:" + p.edad);
-		System.out.println("Estatura:" + p.estatura);
+		System.out.println("Nombre:" + p.getNombre());
+		System.out.println("Edad:" + p.getEdad());
+		System.out.println("Estatura:" + p.getEstatura());
 		
-		p2.nombre="David";
+		p2.setNombre("David");
 		
 		System.out.println("***********");
-		System.out.println("p.Nombre:" + p.nombre);
-		System.out.println("p2.Nombre:" + p2.nombre);
+		System.out.println("p.Nombre:" + p.getNombre());
+		System.out.println("p2.Nombre:" + p2.getNombre());
 
 		
 		
