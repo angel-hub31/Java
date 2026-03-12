@@ -7,14 +7,14 @@ public class TestCuadrado {
 		Cuadrado p=new Cuadrado();
 		
 		double areaC;
-		c.base=4;
-		c.altura=4;
+		c.setBase(4);
+		c.setAltura(4);
 		areaC=c.calcularArea();
 		System.out.println("Area de c:"+ areaC);
 		
 		double perimetroP;
-		p.base=3;
-		p.altura=3;
+		p.setBase(3);
+		p.setAltura(3);
 		perimetroP=p.calcularPerimetro();
 		System.out.println("Perimetro de p:"+ perimetroP);
 
