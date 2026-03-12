@@ -1,6 +1,18 @@
 package com.krakedev;
 
 public class Calculadora {
+	private double resultado;
+	
+	public double getResultado() {
+		return resultado;
+	}
+
+
+	public void setResultado(double resultado) {
+		this.resultado = resultado;
+	}
+
+
 	public int sumar(int valor1,int valor2) {
 	int resultado;//declaramos la variable
 	resultado=valor1+valor2;
@@ -31,13 +43,9 @@ public class Calculadora {
 		double resultado;
 		resultado=(valor1 +valor2+valor3)/3;
 		return resultado;
-		
 	}
-	
 	public void mostrarResultado() {
 		
 		System.out.println("Ahorita no joven, Sali al almuerzo. Regreso en 15 minutos");
-
 	}
-	
 }

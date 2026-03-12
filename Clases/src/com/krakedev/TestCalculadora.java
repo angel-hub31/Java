@@ -26,6 +26,11 @@ public class TestCalculadora {
 		resultadoPromedio=calcu.promediar(10,8,9);
 		System.out.println("Resultado:"+resultadoPromedio);
 		
+		System.out.println("Valor 'resultado': " + calcu.getResultado());
+        
+        calcu.setResultado(100.0);
+        System.out.println("Valor  " + calcu.getResultado());
+		
 		calcu.mostrarResultado();
 		
 
