@@ -1,6 +1,16 @@
 package com.krakedev;
 
 public class Mensajeria {
+	private String tipoMensaje;
+	
+	public String getTipoMensaje() {
+		return tipoMensaje;
+	}
+
+	public void setTipoMensaje(String tipoMensaje) {
+		this.tipoMensaje = tipoMensaje;
+	}
+
 	// "void" no retorna nada y no recibe nada
 	public void saludar() {
 		System.out.println("Hola Mundo");
