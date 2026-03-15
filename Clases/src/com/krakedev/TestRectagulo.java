@@ -6,6 +6,7 @@ public class TestRectagulo {
 		Rectangulo r1=new Rectangulo();
 		Rectangulo r2=new Rectangulo();
 		Rectangulo p=new Rectangulo();
+		Rectangulo p1=new Rectangulo(8,6);
 		
 		int areaR1;
 		r1.setBase(10);
@@ -24,6 +25,12 @@ public class TestRectagulo {
 		p.setAltura(2);
 		perimetroP=p.calcularPerimetro();
 		System.out.println("Perimetro de p:"+ perimetroP);
+		
+		
+		int perimetroP1=p1.calcularPerimetro();
+		System.out.println("Perimetro de p:"+ perimetroP1);
+		
+		
 
 		
 	}
