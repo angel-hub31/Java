@@ -4,10 +4,21 @@ public class TestPersona {
 
 	public static void main(String[] args) {
 		// 1: declaro una variable llamada p de tipo persona
-		Persona p=new Persona();
+		
+		Persona p=new Persona();		//2:instanciar un objeto Persona, referenciada
 		Persona p2=new Persona();
+		Persona p3=new Persona("Pablo");
+		Persona p4=new Persona("Rocio",43,1.60);
+		
+		System.out.println("Nombre:" + p3.getNombre());
+
+		
+		System.out.println("Nombre:" + p4.getNombre());
+		System.out.println("Edad:" + p4.getEdad());
+		System.out.println("Estatura:" + p4.getEstatura());
+		
+
 	
-		//2:instanciar un objeto Persona, referenciada
 		//3:accedo a los atributos
 		System.out.println("Nombre:" + p.getNombre());
 		System.out.println("Edad:" + p.getEdad());
