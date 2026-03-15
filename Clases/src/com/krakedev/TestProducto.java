@@ -40,6 +40,14 @@ public class TestProducto {
 		System.out.println("Precio:" + productoC.getPrecio());
 		System.out.println("StockActual:" + productoC.getStockActual());
 
+		System.out.println("*********************************");
+		
+		Producto productoD=new Producto("Cama","2 plasas",450,20);
+		System.out.println("Nombre:" + productoD.getNombre());
+		System.out.println("Descripcion:" + productoD.getDescripcion());
+		System.out.println("Precio:" + productoD.getPrecio());
+		System.out.println("StockActual:" + productoD.getStockActual());
+
 		
 
 
