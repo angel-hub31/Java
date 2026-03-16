@@ -44,7 +44,8 @@ public class TestCuenta {
 		cuenta4.imprimirConMiEstilo();
 		cuenta5.imprimirConMiEstilo();
 		cuenta6.imprimirConMiEstilo();
-		
+		System.out.println("  ");
+
 	}
 
 }

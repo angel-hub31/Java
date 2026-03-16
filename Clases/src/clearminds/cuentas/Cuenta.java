@@ -44,6 +44,7 @@ public class Cuenta {
 		System.out.println("Saldo: USD"+saldo);
 		System.out.println("**************************");
 		System.out.println("  ");
+		System.out.println("  ");
 
 
 	}
@@ -52,7 +53,6 @@ public class Cuenta {
 		System.out.println("Categoria: " + tipo + "  Fondos Disponibles: $" + saldo);
 		System.out.println("**************************************");
 		System.out.println("  ");
-
 
 	}
 
