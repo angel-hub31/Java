@@ -1,5 +1,7 @@
-package com.krakedev;
+package com.krakedev.test;
 
+import com.krakedev.Mensajeria;
+// ctrl + shif + O para importar
 public class TestMensajeria {
 
 	public static void main(String[] args) {
