@@ -42,13 +42,6 @@ public class TestPersona {
 		System.out.println("p.Nombre:" + p.getNombre());
 		System.out.println("p2.Nombre:" + p2.getNombre());
 
-		
-		
-		
-
-		
-
-
 	}
 
 }

@@ -28,12 +28,9 @@ public class TestRectagulo {
 		perimetroP=p.calcularPerimetro();
 		System.out.println("Perimetro de p:"+ perimetroP);
 		
-		
 		int perimetroP1=p1.calcularPerimetro();
 		System.out.println("Perimetro de p:"+ perimetroP1);
 		
-		
-
 		
 	}
 

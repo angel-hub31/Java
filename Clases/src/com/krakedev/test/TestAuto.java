@@ -25,7 +25,6 @@ public class TestAuto {
 		System.out.println("Anio:" + auto2.getAnio() );
 		System.out.println("Precio:" + auto2.getPrecio() );
 		
-		
 		System.out.println("***************************************" );
 
 		Auto auto3=new Auto("Mercedes",2026,50000);
@@ -33,10 +32,5 @@ public class TestAuto {
 		System.out.println("Marca:" + auto3.getMarca ());
 		System.out.println("Anio:" + auto3.getAnio() );
 		System.out.println("Precio:" + auto3.getPrecio() );
-		
-		
-	
-
 	}
-
 }

@@ -7,13 +7,10 @@ public class Producto {
 	private String descripcion;
 	private double peso;
 	
-	
 	public Producto(int codigo , String nombre) {
 		this.codigo=codigo;
-		this.nombre=nombre;
-		
+		this.nombre=nombre;	
 	}
-	
 	// 2: generamos los getters y setters
 	public int getCodigo() {
 		return codigo;
