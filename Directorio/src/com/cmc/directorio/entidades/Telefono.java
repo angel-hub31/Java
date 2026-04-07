@@ -50,5 +50,6 @@ public class Telefono {
 		System.out.println(
 				"Telefono:" + codigo + ", Operadora:" + operadora + ", Numero:" + numero + ", WhatsApp:" + tieneWhatsapp);
 	}
+	
 
 }
