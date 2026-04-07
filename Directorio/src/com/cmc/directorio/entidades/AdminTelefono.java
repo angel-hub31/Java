@@ -14,5 +14,17 @@ public class AdminTelefono {
 	if(t3.getOperadora().equals("movi")) contador ++;
 	return contador;
 	}
+	
+	public int contarClaro(Telefono t1,Telefono t2,Telefono t3,Telefono t4) {
+		int contador=0;
+		if(t1.getOperadora().equals("claro")) contador ++;
+		if(t2.getOperadora().equals("claro")) contador ++;
+		if(t3.getOperadora().equals("claro")) contador ++;
+		if(t4.getOperadora().equals("claro")) contador ++;
+
+		return contador;
+		
+		
+	}
 
 }
