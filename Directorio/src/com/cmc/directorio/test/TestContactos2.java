@@ -21,4 +21,5 @@ public class TestContactos2 {
         boolean resultadoOperadoras = admin.compararOperadoras(c1, c2);
         System.out.println("¿Tienen la misma operadora?: " + resultadoOperadoras);
     }
+    
 }
