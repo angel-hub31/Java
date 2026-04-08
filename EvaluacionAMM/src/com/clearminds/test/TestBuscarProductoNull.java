@@ -11,10 +11,10 @@ public class TestBuscarProductoNull {
 
 		Producto producto = new Producto("Papitas", 0.85, "KE34");
 		maquina.cargarProducto(producto, "B1", 4);
-		// estás intentando llamar al método .getNombre() sobre una variable que no hace
+		// esta intentando llamar al método .getNombre() sobre una variable que no hace
 		// referencia a ningún objeto (es decir, es null).
-		//Línea exacta del error: 16
-		//Variable que produjo el error: prod
+		//Línea exacta del error: 19
+		//la Variable que produjo el error: prod
 		Producto prod = maquina.buscarProductoEnCelda("A1");
 		System.out.println("Producto encontrado:" + prod.getNombre());
 
