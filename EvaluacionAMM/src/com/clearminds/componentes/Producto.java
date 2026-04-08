@@ -5,12 +5,12 @@ public class Producto {
 	private double precio;
 	private String codigo;
 	//Constructores que reciben 3 parametros
-	public Producto(String nombre, double precio,String codigo ) {
+	public Producto(String codigo,String nombre,double precio) {
 		
-		
+		this.codigo = codigo;
 		this.nombre = nombre;
 		this.precio = precio;
-		this.codigo = codigo;
+		
 		
 	}
 	// metodo incrementar precio

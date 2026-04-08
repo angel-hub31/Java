@@ -6,7 +6,7 @@ public class TestProducto {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Producto producto=new Producto("Papitas",0.85,"KE34");
+		Producto producto=new Producto("KE34","Papitas",0.85);
 		System.out.println("C�digo:"+producto.getCodigo());
 		System.out.println("Nombre:"+producto.getNombre());
 		System.out.println("Precio:"+producto.getPrecio());
