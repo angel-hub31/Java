@@ -12,13 +12,13 @@ public class TestIncrementarProducto {
 		Producto producto=new Producto("Papitas",0.85,"KE34");
 		maquina.cargarProducto(producto, "B1", 4);
 		
-		maquina.mostrarProducto();
+		maquina.mostrarProductos();
 		
 		maquina.incrementarProductos("KE34", 8);
 		
 		System.out.println("------------LUEGO DEL INCREMENTO-------------");
 		
-		maquina.mostrarProducto();
+		maquina.mostrarProductos();
 	}
 
 }

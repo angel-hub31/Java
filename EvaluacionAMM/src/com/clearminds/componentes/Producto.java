@@ -5,16 +5,17 @@ public class Producto {
 	private double precio;
 	private String codigo;
 	//Constructores que reciben 3 parametros
-	public Producto(String nombre, double precio, String codigo) {
+	public Producto(String nombre, double precio,String codigo ) {
+		
 		
 		this.nombre = nombre;
 		this.precio = precio;
 		this.codigo = codigo;
+		
 	}
 	// metodo incrementar precio
 	public void incrementarPrecio(int porcentajeDerivado) {
-		double incremento=(this.precio*porcentajeDerivado)/100;
-		this.precio=this.precio+incremento;
+		this.precio = this.precio + (this.precio * porcentajeDerivado / 100);
 		
 	}
 	//metodo disminuir precio

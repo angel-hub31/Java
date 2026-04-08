@@ -18,7 +18,7 @@ public class TestVenderConCambio {
 		maquina.vender("B1");
 		double cambio=maquina.venderConCambio("B1",1);
 		
-		maquina.mostrarProducto();
+		maquina.mostrarProductos();
 			
 		System.out.println("SU CAMBIO ES:"+cambio);
 	}

@@ -18,7 +18,7 @@ public class TestVender {
 		maquina.vender("A1");
 		maquina.vender("B1");
 		
-		maquina.mostrarProducto();
+		maquina.mostrarProductos();
 	}
 
 }
